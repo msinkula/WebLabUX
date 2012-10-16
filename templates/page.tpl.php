@@ -1,4 +1,4 @@
-
+<!-- Edit. -->
 <!-- Begin Page -->
 <div id="page" class="<?php print $classes; ?>"<?php print $attributes; ?>>
 
