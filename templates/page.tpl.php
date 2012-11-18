@@ -15,7 +15,7 @@
         <?php print theme('links', array('links' => $main_menu, 'attributes' => array('id' => 'primary', 'class' => array('links', 'clearfix', 'main-menu')))); // render main menu ?>
         </nav>
         <!-- End Main Menu -->
-    <?php endif; // end if is not front page or you are logged into the front page ?>
+    <?php endif; /*end if is not front page or you are logged into the front page*/ ?>
     
     <!-- Begin User Login -->
     <?php if ($logged_in) : // begin if logged in ?>
