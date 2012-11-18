@@ -32,7 +32,7 @@
 <!-- Begin Breadcrumb -->
 <div id="breadcrumb" >
 <?php if (!$is_front && $breadcrumb): ?>
-    <?php print $breadcrumb; /* render breadcrumb menu   */ ?>
+    <?php print $breadcrumb; /* render breadcrumb menu */ ?>
 <?php endif; ?>
 </div>
 <!-- End Breadcrumb -->
