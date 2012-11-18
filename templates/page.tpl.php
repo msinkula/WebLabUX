@@ -5,7 +5,7 @@
 <!-- Begin Header -->
 <div id="header">
 	<header class="body">
-    <?php if (!$is_front || ($is_front && $logged_in)): // if is not front page or you are logged into the front page ?>
+    <?php if (!$is_front || ($is_front && $logged_in)): /*if is not front page or you are logged into the front page*/ ?>
         <!-- Begin Logo -->
         <h1 id="logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" ><img src="<?php print $logo; // render logo ?>" alt="<?php print t('Home'); ?>"/></a></h1>
         <!-- End Logo -->
