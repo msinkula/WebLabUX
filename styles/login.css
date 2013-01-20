@@ -103,40 +103,40 @@ div.widgets {
 	overflow: hidden;
 	}
 	
-	article.widget-item {
+	div.widget-item {
 		float: left;
 		width: 31.9148936170213%; /* 300px / 940px */
 		margin-right: 02.1276595744681%; /* 20px / 940px */
 		}
 		
-	article.widget-item:last-child { 
+	div.widget-item:last-child { 
 		float: right;
 		margin-right: 0;
 		}	
 		
-	article.widget-item h2 {
+	div.widget-item h2 {
 		color: #11193c;
 		font-size: 1.125em; /* 18px / 16px */
 		text-transform: uppercase;
 		}
 		
-	article.widget-item p {
+	div.widget-item p {
 		color: #fff;
 		font-size: .875em; /* 14px / 16px */
 		line-height: 150%;
 		}
 		
-			article.widget-item p a {
+			div.widget-item p a {
 				color: #ccc;
 				border-bottom: 1px solid #ccc;
 			}
 			
-			article.widget-item p a:hover {
+			div.widget-item p a:hover {
 				color: #fff;
 				border-bottom: 1px solid #fff;
 			}
 			
-			article.widget-item a.button {
+			div.widget-item a.button {
 				display: block;
 				color: #000;
 				text-shadow:#F9F7C1 1px 1px 2px;
@@ -151,14 +151,14 @@ div.widgets {
 				-webkit-box-shadow: 2px 2px 5px #000;
 			}
 			
-			article.widget-item a.button:hover {
+			div.widget-item a.button:hover {
 				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F9F7C1', endColorstr='#C4BE06'); /* EXPLODER */
 				background: -webkit-gradient(linear, left top, left bottom, from(#F9F7C1), to(#C4BE06)); /* CHROME/SAFARI */
 				background: -moz-linear-gradient(top, #F9F7C1, #C4BE06); /* FIREFOX */
 				border: 1px solid #C4BE06;
 			}
 			
-				article.widget-item a.button strong {
+				div.widget-item a.button strong {
 					font-size: 2em; /* 32px / 16px */
 				}
 				
