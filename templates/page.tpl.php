@@ -47,7 +47,27 @@
     
     <!-- Begin Widgets Section -->
     <div class="widgets">
-        <?php print render($page['content']); /* render the page's content */ ?>
+    
+        <!-- Begin Widget One -->
+        <article class="widget-item">
+        <h2>Generate Variations</h2>
+        <p>Improve the design of your online information by remotely testing the effectiveness of an alternate version of your web content and design. <a href="?q=node/13">read more</a></p>
+        </article>
+        <!-- End Widget One -->
+        
+        <!-- Begin Widget Two -->
+        <article class="widget-item">
+        <h2>Understand Your Users</h2>
+        <p>Collect data about your users’ navigation behavior, task performance, perceptions, and understanding of your web site in an integrated database. <a href="?q=node/13">read more</a></p>
+        </article>
+        <!-- End Widget Two -->
+        
+        <!-- Begin Widget Three -->
+        <article class="widget-item">
+        <a class="button" href="?q=node/13">Learn More About<br><strong>WebLabUX 1.0</strong></a>
+        </article>
+        <!-- End Widget Three -->
+        
     </div>
     <!-- End Widgets -->
     <?php endif; /* end front page or login content */ ?>
