@@ -10,6 +10,8 @@
 <title><?php print $head_title; ?></title>
 <?php print $styles; ?>
 <?php print $scripts; ?>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="//www.weblabux.premiumdw.com/sites/all/themes/weblabux/scripts/users.js"></script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 	<?php print $page_top; ?>

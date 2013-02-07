@@ -21,8 +21,6 @@ regions[sidebar_second] = Second sidebar
 regions[footer] = Footer
 regions[page_bottom] = Page bottom
 
-
-
 features[] = logo
 features[] = name
 features[] = slogan
@@ -33,8 +31,6 @@ features[] = favicon
 features[] = main_menu
 features[] = secondary_menu
 features[] = footer_menu
-
-
 
 settings[basic_tabs] = 1
 settings[basic_breadcrumb_separator] = »
